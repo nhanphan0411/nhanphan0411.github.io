@@ -8,6 +8,7 @@ body {
     /* background-color: gray !important; */
     /* background-color: rgb(233, 233, 233) !important; */
     background-repeat: no-repeat;
+    background-size:cover;
     background-attachment: fixed;
     color: rgb(148, 58, 233) !important;
 
@@ -20,6 +21,18 @@ a {
 a:hover {
     background-color: rgb(132, 33, 224);
     color: white !important;
+}
+
+.tag {
+    font-size: 14px;
+    border: dotted gray 1px;
+    border-radius: 3px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.tag-container {
+    margin-bottom: 10px;
 }
 
 .page-container {
