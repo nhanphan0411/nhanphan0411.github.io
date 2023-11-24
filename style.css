@@ -16,6 +16,7 @@ body {
 @media screen and (max-width: 480px) {
     body {
         background-size:contain;
+        background-attachment: fixed;
     }
 
 }
