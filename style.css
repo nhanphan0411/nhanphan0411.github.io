@@ -11,6 +11,12 @@ body {
     background-size:cover;
     background-attachment: fixed;
     color: rgb(148, 58, 233) !important;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-size:contain;
+    }
 
 }
 
@@ -72,6 +78,13 @@ section {
 
 section:hover {
     background: rgba(237, 237, 237, 0.662);
+}
+
+@media screen and (max-width: 480px) {
+    section {
+        min-width: 90vw;
+    }
+
 }
 
 .link-out::after{
