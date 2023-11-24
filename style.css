@@ -1,17 +1,21 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Times New Roman', Times, serif !important;
-    /* color: blueviolet !important; */
     margin: 0;
     height: 100vh;
     background-image: url("assets/000025.jpeg");
-    /* background-image: url("assets/000024.JPG"); */
-    /* background-color: gray !important; */
-    /* background-color: rgb(233, 233, 233) !important; */
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
     color: rgb(148, 58, 233) !important;
 
+}
+
+h3 {
+  padding-top: 2rem;
 }
 
 a {
