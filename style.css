@@ -31,6 +31,7 @@ a {
 
 a:hover {
     background-color: rgb(132, 33, 224);
+    text-transform: uppercase;
     color: white !important;
 }
 
@@ -78,7 +79,7 @@ section {
 }
 
 section:hover {
-    background: rgba(237, 237, 237, 0.662);
+    background: rgba(237, 237, 237, 0.92);
 }
 
 @media screen and (max-width: 480px) {
@@ -89,7 +90,7 @@ section:hover {
 }
 
 .link-out::after{
-    content: "↗";
+    content: "";
     font: 'Favorit', 'Helvetica Neue', sans-serif;
     font-size: .8vw;
     vertical-align: super;
@@ -110,7 +111,7 @@ img {
 
 /* Nav */
 #navigation {
-    min-width: 250px;
+    min-width: 300px;
     overflow-x: hidden;
 }
 
