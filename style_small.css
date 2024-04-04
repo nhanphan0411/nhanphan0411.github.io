@@ -3,7 +3,7 @@
         background-image: none;
         width: 100vh;
         position: absolute;
-        /* background-color: rgb(63, 63, 63); */
+        background-color: rgb(246, 246, 246)!important;
         /* background-size: contain; */
         
     }
@@ -22,7 +22,7 @@
 
     .tag {
         font-size: 14px;
-        border: dotted #96daff 1px;
+        border: dotted #96daff 2px;
     }
     
 
