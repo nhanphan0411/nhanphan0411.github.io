@@ -8,17 +8,15 @@ body {
     height: 100vh;
     background-image: url("assets/000025.jpeg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: 'hidden';
+    z-index: -10;
     background-attachment: fixed;
     color: rgb(148, 58, 233) !important;
-}
-
-@media screen and (max-width: 480px) {
-    body {
-        background-size:contain;
-        background-attachment: fixed;
-    }
-
+    
 }
 
 h3 {
@@ -27,6 +25,7 @@ h3 {
 
 a {
     text-decoration: underline !important;
+    color: rgb(148, 58, 233) !important;
 }
 
 a:hover {
@@ -79,7 +78,7 @@ section {
 }
 
 section:hover {
-    background: rgba(237, 237, 237, 0.92);
+    background: rgba(255, 236, 236, 0.95);
 }
 
 @media screen and (max-width: 480px) {
