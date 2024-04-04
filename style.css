@@ -78,7 +78,7 @@ section {
 }
 
 section:hover {
-    background: rgba(255, 236, 236, 0.95);
+    background: rgba(255, 236, 236, 0.80);
 }
 
 @media screen and (max-width: 480px) {
