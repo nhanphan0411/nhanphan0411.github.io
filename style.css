@@ -111,6 +111,11 @@ img {
     display: block;
 }
 
+.beach-pocket-img{
+    width:70%;
+    padding-bottom: 5vh;
+}
+
 /* Nav */
 #navigation {
     min-width: 300px;
