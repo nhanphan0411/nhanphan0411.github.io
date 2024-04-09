@@ -16,7 +16,16 @@ body {
     z-index: -10;
     background-attachment: fixed;
     color: rgb(148, 58, 233) !important;
+}
 
+#sub-page-body {
+    margin-left: 25vw !important;;
+}
+
+#teach20{
+    background-image: none;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 h3 {
@@ -200,4 +209,9 @@ img {
 #myBtn:hover {
     background-color: #555;
     /* Add a dark-grey background on hover */
+}
+
+#teach20 {
+    width:50vw;
+    margin:0, 25vw, 0, 25vw;
 }
