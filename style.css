@@ -184,6 +184,12 @@ img {
     min-width: 300px;
 }
 
+#portrait-guide {
+    text-align: right; 
+    color:rgba(40, 40, 40, 0.847);
+}
+
+
 /* #further {
     min-width: 320px;
     overflow-x: hidden;
