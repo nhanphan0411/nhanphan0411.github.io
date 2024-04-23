@@ -18,10 +18,6 @@ body {
     color: rgb(148, 58, 233) !important;
 }
 
-#large-bg {
-    display:block;
-}
-
 .bg {
     /* display: flex; */
     position: fixed;
@@ -39,6 +35,11 @@ body {
     padding:0 !important;
     /* width:50%; */
     /* height:100vh; */
+}
+
+#large-bg {
+    display:block;
+    width:100%;
 }
 
 #mobile-bg {
