@@ -50,8 +50,10 @@ function setup() {
 }
 
 function draw() {
-  // background(255, 236, 236, 0.82*255);
   clear();
+  if (isMobileDevice) {
+    background(255, 236, 236, 255);
+  }
   drawBg();
 
   // rectMode(CENTER);
