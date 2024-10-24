@@ -1229,12 +1229,12 @@
 <script src="fslightbox.js"></script>
 
 <script>
-
-    jQuery(document).ready(function ($) {
-        $(".clickable-row").click(function () {
-            window.open($(this).data("href"), '_blank');
-        });
+    document.addEventListener("DOMContentLoaded", function () {
+    const images = document.querySelectorAll("img");
+    images.forEach(image => {
+        image.setAttribute("loading", "lazy");
     });
+});
 </script>
 
 </html>
