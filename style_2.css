@@ -121,6 +121,10 @@ body {
     .thumb {
         height: 3.5rem;
      }
+    
+    #keyboard-demo {
+        width: 100%;
+    }
 }
 
 .border-between > [class*='col-']:before {
