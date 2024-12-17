@@ -11,7 +11,7 @@ body {
     height: 100vh;
     overflow: 'hidden';
     z-index: -10;
-    background-color: #ffeee8!important;
+    /* background-color: #ffeee8!important; */
     color: rgb(0, 0, 0) !important;
 }
 
@@ -24,6 +24,11 @@ body {
     --h4-size: calc(1.2rem + 0vw);
     --h5-size: calc(0.4rem + 0.3vw);
     --bs-border-color: black !important;
+}
+
+a:hover {
+    /* color: rgb(255, 0, 204); */
+    font-style: italic;
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */
@@ -88,11 +93,11 @@ body {
         position: fixed;
         padding: 1rem 2.5rem;
         height: 100vh;
-        background-image: url("assets/beach-pocket/2 copy.jpeg");
+        /* background-image: url("assets/beach-pocket/2 copy.jpeg");
         background-attachment: fixed;
         background-size: 30vw 100vh;
         background-position: left;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
 
     #work {
