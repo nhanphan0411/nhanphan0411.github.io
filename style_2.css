@@ -12,11 +12,13 @@ body {
     z-index: -10;
     color: #000 !important;
     background-color: #fff5d3 !important;
+
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><text x='16' y='16' font-size='32' text-anchor='middle' dominant-baseline='middle'>⚘</text></svg>"), auto;
 }
 
 ::selection {
-    background: white;
-  }
+    background: rgb(255, 253, 156);
+}
 
 :root {
     --font-size: calc(13px + 0.28vw);
