@@ -154,3 +154,9 @@ a:hover {
 .border-between>[class*=col-]:first-child:before {
     display: none
 }
+
+/* INSTAGRAM EMBED STYLING */
+
+.SocialProof{
+    display: none !important;
+}
