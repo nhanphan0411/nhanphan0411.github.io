@@ -12,7 +12,7 @@ body {
     z-index: -10;
     color: #000 !important;
     background-color: #fffff5 !important;
-    /* background-image: url('assets/bg/2.png'); */
+    /* background-image: url('assets/000024 copy.JPG'); */
     background-size: cover;
     background-attachment: fixed;
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><text x='16' y='16' font-size='32' text-anchor='middle' dominant-baseline='middle'>⚘</text></svg>"), auto;
@@ -155,6 +155,127 @@ a:hover {
 
 /* INSTAGRAM EMBED STYLING */
 
-.SocialProof{
+.SocialProof {
     display: none !important;
+}
+
+.column-scroll {
+    height: 100vh;
+    /* full viewport height */
+    overflow-y: auto;
+    /* enable vertical scroll only */
+    overflow-x: hidden;
+    /* prevent sideways scroll */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE & Edge */
+}
+
+
+.column-scroll::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+#bio {
+    padding-top: 40vh;
+    color: rgb(74, 149, 74);
+}
+
+#content {
+    border-left: purple dotted 1px;
+    color: rgb(186, 115, 186);
+}
+
+.annotation {
+    font-size: 8pt;
+    border: 0.5px solid gray;
+}
+
+
+#work-content {
+    padding-top: 35vh;
+}
+
+#menu {
+    color: rgb(186, 115, 186);
+}
+
+#credit {
+    color: rgb(186, 115, 186);
+}
+
+@media screen and (max-width:480px) {
+    #content {
+        border-left: none;
+        /* border: rgb(186, 115, 186) 10px solid; */
+        min-height: 100vh;
+        color: rgb(186, 115, 186);
+    }
+
+    #bio {
+        padding-top: 5vh;
+        /* border: rgb(74, 149, 74) 10px solid; */
+        color: rgb(74, 149, 74);
+        padding: 5%;
+    }
+
+    #pad-col-left {
+        display: none;
+    }
+
+    #pad-col-right {
+        display: none;
+    }
+
+    .column-scroll {
+        height: auto;
+    }
+
+    #work-content {
+        padding-top: 10vh;
+    }
+
+    .wa-child {
+        height: 100%;
+        min-width: 100vw;
+        padding: 0 8px;
+    }
+
+    .wa-child a {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .wa-child a>img {
+        width: 95%;
+        height: auto;
+        object-fit: contain; 
+        display: block !important;
+    }
+
+}
+
+
+.wa-container {
+    height: 100vh;
+    /* background: white; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: rgb(186, 115, 186);
+}
+
+.wa-child {
+    height: 100%;
+    padding: 0 8px;
+
+}
+
+.wa-child a {
+    height: 100%;
+}
+
+.wa-child img {
+    height: 95%;
 }
