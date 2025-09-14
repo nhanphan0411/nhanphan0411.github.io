@@ -33,6 +33,10 @@ body {
     --bs-border-radius: none !important;
 }
 
+a {
+    color: rgb(186, 115, 186) !important;
+}
+
 a:hover {
     font-style: italic;
     color: rgb(198, 198, 34) !important;
