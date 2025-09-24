@@ -68,7 +68,7 @@ a:hover {
 
 #bio {
     height: 100vh;
-    padding-top: 40vh;
+    padding-top: 47vh;
     color: rgb(74, 149, 74);
 }
 
@@ -103,13 +103,13 @@ a:hover {
     margin-left: 0;
 }
 
-#content>ul>li:before {
+/* #content>ul>li:before {
     content: "<";
 }
 
 #content>ul>li:after {
     content: ">";
-}
+} */
 
 #menu>ul {
     list-style-type: none;
@@ -180,7 +180,7 @@ a:hover {
 
     #content>ul>li {
         line-height: 1rem;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.5rem;
     }
 
     #bio {
