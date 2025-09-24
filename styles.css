@@ -53,6 +53,27 @@ a:hover {
     --bs-gutter-x: 0rem !important
 }
 
+/* Gradient Strips */
+.gradient-strip-top,
+.gradient-strip-bottom {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust the height as needed */
+    z-index: 100; /* Ensures the strips are on top of other content */
+    pointer-events: none; /* Allows clicks to pass through to the content below */
+}
+
+.gradient-strip-top {
+    top: 0;
+    background: linear-gradient(to bottom, #fffff5, rgba(255, 255, 245, 0));
+}
+
+.gradient-strip-bottom {
+    bottom: 0;
+    background: linear-gradient(to top, #fffff5, rgba(255, 255, 245, 0));
+}
+
 .column-scroll {
     /* height: 100vh; */
     overflow-y: auto;
@@ -68,14 +89,17 @@ a:hover {
 
 #bio {
     height: 100vh;
-    padding-top: 47vh;
+    padding-top: 50vh;
     color: rgb(74, 149, 74);
+    padding-bottom: 5rem;
 }
 
 #content {
     height: 100vh;
     border-left: purple dotted 1px;
     color: rgb(186, 115, 186);
+    padding-bottom: calc(50vh - var(--h1-size) - 0.3rem);
+    padding-top: 5rem;
 }
 
 
@@ -184,7 +208,7 @@ a:hover {
     }
 
     #bio {
-        padding-top: 1rem;
+        padding-top: 50vh;
         color: rgb(74, 149, 74);
         width: 100vw;
         scroll-snap-align: start;
