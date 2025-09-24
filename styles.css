@@ -98,7 +98,7 @@ a:hover {
     height: 100vh;
     border-left: purple dotted 1px;
     color: rgb(186, 115, 186);
-    padding-bottom: calc(50vh - var(--h1-size) - 0.3rem);
+    padding-bottom: 60vh;
     padding-top: 5rem;
 }
 
@@ -173,7 +173,7 @@ a:hover {
     height: 100%;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
 
     body {
         color: rgb(186, 115, 186) !important;
@@ -200,6 +200,7 @@ a:hover {
         text-align: center;
         margin-left: 3vw;
         scroll-snap-align: start;
+        padding-bottom: 70vh;
     }
 
     #content>ul>li {
@@ -208,10 +209,14 @@ a:hover {
     }
 
     #bio {
-        padding-top: 50vh;
+        padding-top: 40vh;
         color: rgb(74, 149, 74);
         width: 100vw;
         scroll-snap-align: start;
+    }
+
+    #menu {
+        padding-left: 1rem;
     }
 
     /* STYLING LIKE KEYBOARD */
