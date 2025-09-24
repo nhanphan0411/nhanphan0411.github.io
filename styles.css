@@ -100,7 +100,6 @@ a:hover {
 #content>ul {
     list-style-type: none;
     padding-left: 0;
-    /* Removes default left padding */
     margin-left: 0;
 }
 
@@ -115,7 +114,6 @@ a:hover {
 #menu>ul {
     list-style-type: none;
     padding-left: 0;
-    /* Removes default left padding */
     margin-left: 0;
 }
 
@@ -178,6 +176,11 @@ a:hover {
         text-align: center;
         margin-left: 3vw;
         scroll-snap-align: start;
+    }
+
+    #content>ul>li {
+        line-height: 1rem;
+        margin-bottom: 0.8rem;
     }
 
     #bio {
