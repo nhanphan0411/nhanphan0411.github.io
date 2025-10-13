@@ -59,9 +59,12 @@ a:hover {
     position: fixed;
     left: 0;
     width: 100%;
-    height: 100px; /* Adjust the height as needed */
-    z-index: 100; /* Ensures the strips are on top of other content */
-    pointer-events: none; /* Allows clicks to pass through to the content below */
+    height: 100px;
+    /* Adjust the height as needed */
+    z-index: 100;
+    /* Ensures the strips are on top of other content */
+    pointer-events: none;
+    /* Allows clicks to pass through to the content below */
 }
 
 .gradient-strip-top {
@@ -170,6 +173,24 @@ a:hover {
 }
 
 .row-scroll-child img {
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
 }
 
