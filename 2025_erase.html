@@ -45,11 +45,13 @@
     gtag('config', 'G-ZPJHJ1TMV0');
 </script>
 
-<body>
+<body style="background-color:#fff !important">
     <div class="row d-flex flex-column flex-sm-row justify-content-center">
         <div class="col-sm-3 py-2 px-3 column-scroll" id="menu">
             <h1>
-                <a href="/"><></a>
+                <a href="/">
+                    <>
+                </a>
             </h1>
             <ul>
                 <li><a href="https://vungbienme.vercel.app" target="_blank">Our Mother Sea (<i>in progress</i>)</a></li>
@@ -68,25 +70,19 @@
             <h1 class="text-end"><i>Erase.</i></h1>
 
             <br><br>
-            <div class="row">
-                <a class="col-sm-6 col-12 p-2" data-fslightbox="erase" href="assets/erase/1.webp"><img
+            <div class="">
+                <a class="col-sm-12 col-12 p-2" data-fslightbox="erase" href="assets/erase/1.webp"><img
                         src="assets/erase/1.webp" width="100%"></a>
-                <div class="col-sm-6 col-12 p-2">
-                    <p class="text-end">
+                <br><br><br><br><br><br>
+
+                <div class="col-sm-12 col-12 p-2">
+                    <p>
                         Two agents. <br>Everyday, one wakes up and writes a love poem. <br>Six hours
                         later, the other wakes up, erases the memory.
                     </p>
                     <hr>
-                    <p class="text-end">
-                        <i>
-                            Love letters are generated with OpenAI API, re-trained on artist's
-                            personal conversations of his past relationship.
-                            /// The rate of forgeting (number of characters to be deleted everyday)
-                            is based on Ebbinghaus Forgetting Curve, a mathematical model that
-                            describes how quickly people forget information over time.
-                        </i>
-                    </p>
                 </div>
+
                 <div class="d-flex flex-column">
                     <a class="col-sm-12 col-12 p-2 pb-sm-1 mb-1" data-fslightbox="erase" href="assets/erase/4.jpg"><img
                             src="assets/erase/4.jpg" width="100%"></a>
@@ -94,9 +90,23 @@
                             src="assets/erase/1.jpg" width="100%"></a>
                     <a class="col-sm-12 col-12 p-2 pb-sm-1 mb-1" data-fslightbox="erase" href="assets/erase/2.jpg"><img
                             src="assets/erase/2.jpg" width="100%"></a>
-
                 </div>
             </div>
+            <div class="col-sm-12 col-12 p-2">
+                <hr>
+                <p>
+                    <i>
+                        Love letters are generated with OpenAI API, re-trained on artist's
+                        personal conversations of his past relationship.
+                        /// The rate of forgeting (number of characters to be deleted everyday)
+                        is based on Ebbinghaus Forgetting Curve, a mathematical model that
+                        describes how quickly people forget information over time.
+                    </i>
+                </p>
+<a class="col-sm-12 col-12 p-2 pb-sm-1 mb-1" data-fslightbox="erase" href="assets/erase/5.png"><img
+                            src="assets/erase/5.png" width="100%"></a>
+            </div>
+
 
             <br><br><br><br><br><br><br><br><br><br><br><br>
             <div class="d-flex flex-row">
@@ -149,7 +159,7 @@
         });
 
         document.getElementById("time-vn").textContent = "SGN " + vnTime;
-        document.getElementById("time-london").textContent = "LDN " + londonTime;
+        document.getElementById("time-london").textContent = "LHR " + londonTime;
     }
 
     // update immediately, then every 30s
